@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="thrift-demo-service" />
+        <module name="thrift-demo-interface" />
+        <module name="thrift-demo-client" />
+        <module name="thrift-demo-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="thrift-demo" target="1.5" />
+      <module name="thrift-demo-client" target="1.5" />
+      <module name="thrift-demo-interface" target="1.5" />
+      <module name="thrift-demo-server" target="1.5" />
+      <module name="thrift-demo-service" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
